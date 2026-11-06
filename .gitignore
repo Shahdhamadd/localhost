@@ -1,0 +1,4 @@
+/target
+www/main/uploads/*
+!www/main/uploads/.gitkeep
+www/test/note.txt

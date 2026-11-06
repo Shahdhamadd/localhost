@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>localhost</title>
+<link rel="stylesheet" href="/style.css"><link rel="icon" href="/logo.svg">
+</head>
+<body>
+<h1>Welcome to my Rust server</h1>
+<img src="/logo.svg" alt="logo" width="80">
+<ul>
+<li><a href="/about.html">About page</a></li>
+<li><a href="/files/">Directory listing</a></li>
+<li><a href="/upload.html">Upload a file</a></li>
+<li><a href="/session">My session (cookie)</a></li>
+<li><a href="/cgi/hello.py?name=shahd">Python CGI</a></li>
+<li><a href="/cgi/hello.pl?name=shahd">Perl CGI</a></li>
+<li><a href="/old">Redirect (goes back here)</a></li>
+<li><a href="/nothing-here">A page that does not exist</a></li>
+</ul>
+<form action="/cgi/echo.py" method="POST">
+<input name="message" value="hello CGI">
+<button type="submit">Send to Python</button>
+</form>
+</body>
+</html>

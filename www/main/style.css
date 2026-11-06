@@ -1,0 +1,6 @@
+body { font-family: sans-serif; max-width: 600px; margin: 40px auto; background: #f4f6fb; color: #222; }
+h1 { color: #3b5bdb; }
+a { color: #3b5bdb; }
+button { background: #3b5bdb; color: white; border: 0; padding: 4px 10px; border-radius: 4px; cursor: pointer; }
+button:hover { background: #2f4bc0; }
+li { margin: 6px 0; }
